@@ -169,7 +169,7 @@ body {
   }
   
   .fa-facebook {
-	background: #3B5998;
+	background:red;
 	color: blue;
   }
   
@@ -193,8 +193,9 @@ body {
   }
   
   .fa-pinterest {
-	background: #55ACEE;
-	color: white;
+	background: yellow;
+	color:black
+
   }
   .fa-flickr{
 	background: #55ACEE;
