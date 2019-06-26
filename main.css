@@ -188,7 +188,7 @@ body {
 	color: white;
   }
   .fa-github{
-	background: #3B5998;
+	background:brown;
 	color: white;
   }
   
@@ -198,6 +198,28 @@ body {
 
   }
   .fa-flickr{
-	background: #55ACEE;
+	background: green;
 	color: white;
   }
+  carousel-item active img
+{
+height: 50px;
+width: 50px;
+}
+.page1 img
+{
+    height: 400px;
+    width: 100%;
+}
+.page2 img
+{
+    height: 400px;
+    width: 100%;
+
+}
+.page3 img
+{
+    height: 400px;
+    width: 100%;
+    
+}
