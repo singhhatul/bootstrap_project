@@ -26,8 +26,10 @@
 		</button>
 		<div class="collapse navbar-collapse" id="main-navigation">
 			<ul class="navbar-nav">
+				
 				<li class="nav-item">
 					<a class="nav-link" href="./index.html">Home</a>
+					
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="./about.html">About</a>
@@ -36,7 +38,12 @@
 					<a class="nav-link" href="./about.html">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="./services.html">Services</a>
+					<a class="nav-link dropdown active dropdown-toggle caret" href="./services.html">Services</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Page 1-1</a></li>
+						<li><a href="#">Page 1-2</a></li>
+						<li><a href="#">Page 1-3</a></li>
+					  </ul>
 				</li>
 			</ul>
 		</div>
@@ -87,7 +94,9 @@
 			<h1>Welcome to the e-Learning world!</h1>
 			<p>
 				E-learning literature identifies an ecology of concepts, from a bibliometric study were identified the most used concepts associated with the use of computers in learning contexts, e.g. computer assisted instruction (CAI), computer assisted learning (CAL), computer-based education (CBE), e-learning, learning management systems (LMS), self-directed learning (SDL), and massive open online courses (MOOC). 
+		
 			</p>
+			
 			<button class="btn btn-outline-secondary btn-lg" onclick="openWin()">Tell Me More!</button>
 		</div>
 	</header>
@@ -117,9 +126,45 @@
 					<textarea class="form-control" rows="4" placeholder="write your query in detail"></textarea>
 				</div>
 				<input type="submit" class="btn btn-secondary btn-block" value="Send" name="" onclick="openWin2()">
+
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Information</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">Information</button>
+    
+      </div>
+      <div class="modal-body">
+		<p>So the complete details are...<br></p>
+		<p>Atul Singh<br>stackroute, kormangala,bangalore
+			<br/>atulsingh0622@gmail.com
+			<br/>+91-9430944990
+			</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+				
 			</div>
+			
 		</div> 
 	</div>
+
+	<!--Google map-->
+<div id="map-container-google-1 " class="z-depth-1-full map-container container map " >
+	<iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27098.454375885947!2d77.6146827921751!3d12.93549219302287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144ed898fc2d%3A0x1681f38e8c00ae56!2sKoramangala%2C+Bengaluru%2C+Karnataka%2C+India!5e1!3m2!1sen!2sus!4v1561609035387!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  
+  
 	
 	<footer class="page-footer">
 		<div class="container">

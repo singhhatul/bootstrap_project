@@ -223,3 +223,8 @@ width: 50px;
     width: 100%;
     
 }
+.map{
+	height: auto; !important;
+	width: 100%;
+	
+}
